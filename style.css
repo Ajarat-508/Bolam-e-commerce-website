@@ -36,7 +36,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color: #f77308;
+  /* color: #f77308; */
   margin: 15px 0 20px 0;
   font-weight: 600;
 }
@@ -103,7 +103,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active{
-color: #2b8888;
+color: #132099d7;
 }
 
 #navbar li a.active::after,
@@ -111,7 +111,7 @@ color: #2b8888;
     content: "";
     width: 30%;
     height: 2px;
-    background: #2b8888;
+    background: #132099d7;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -510,7 +510,7 @@ footer .column{
 }
 
 footer .column .logo{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 footer h4{
@@ -521,7 +521,7 @@ padding-bottom: 20px;
 footer p{
  color: #1b1a1a;
 font-size: 14px;
-padding-bottom: 20px;
+padding-bottom: 10px;
 margin: 0 0 8px 0;
 }
 
@@ -576,7 +576,7 @@ footer .copyright{
   padding: 14px;
 }
 
-#page-header h2, p{
+#page-header h2 p{
   color: #132099e2;
 }
 #page-header p{
@@ -681,7 +681,7 @@ margin-right: 10px;
   background-image: url("img/banner/b19.jpg");
 }
 
-#page-header.blog-header h2, p{
+#page-header.blog-header h2 p{
   color: #fff;
 }
 
@@ -768,7 +768,7 @@ margin-right: 40px;
   align-items: center;
 }
 
-#about-head #about-des h2, p{
+#about-head #about-des h2 p{
 padding-left: 40px;
 color: #000;
 font-size: 12px;
@@ -880,8 +880,8 @@ align-items: flex-start;
 }
 
 
-#form-details form, input,
-#form-details form, textarea{
+#form-details form input,
+#form-details form textarea{
   width: 100%;
   margin-bottom: 16px;
   padding: 12px 14px;
